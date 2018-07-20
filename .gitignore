@@ -1,5 +1,6 @@
 # Compiled Python files
 *.pyc
+.pytest_cache
 
 # Folder view configuration files
 .DS_Store
@@ -12,3 +13,16 @@ Thumbs.db
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
+
+.coverage*
+
+# WIP files
+.wip*
+.envrc
+.idea/*
+
+#jenkins_jobs.ini
+
+.vscode
+/iterm2/com.googlecode.iterm2.xml
+/iterm2/com.googlecode.iterm2.json
